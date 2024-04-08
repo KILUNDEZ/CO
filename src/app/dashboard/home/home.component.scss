@@ -1,0 +1,25 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4; /* Light gray background */
+    padding: 20px;
+  }
+  
+  h1 {
+    color: navy; /* Navy blue color for the heading */
+    text-align: center; /* Center align the heading */
+  }
+  
+  ul {
+    list-style: none; /* Remove default list styles */
+    padding: 0; /* Remove default padding */
+    margin: 0; /* Remove default margin */
+  }
+  
+  li {
+    background-color: #ffffff; /* White background for list items */
+    padding: 10px; /* Add padding to list items */
+    margin-bottom: 10px; /* Add margin between list items */
+    border-radius: 5px; /* Add rounded corners to list items */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Add shadow for depth */
+  }
+  

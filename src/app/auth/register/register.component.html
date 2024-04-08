@@ -1,0 +1,45 @@
+<p>register works!</p>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>User Registration</title>
+</head>
+<body>
+  <h1>Registration form</h1>
+  <form action="/register" method="post" ngSubmit="submit()">
+    <div class = "form-group">
+     <label for="First name">First name:</label>
+     <input type="text" id="First name" name="First name" class="form-conrol" ngModel>
+    </div>
+    <pre></pre>
+    <div class = "form-group">
+     <label for="last name">Last name:</label>
+     <input type="text" id="Last name" name="Last name" class="form-conrol" ngModel>
+    </div>
+    <pre></pre>
+    <div class = "form-group">
+     <label for="email">Email:</label>
+     <input type="email" id="email" name="email" class="form-conrol" ngModel>
+    </div>
+    <pre></pre>
+    <div class = "form-group">
+     <label for="Enter password">Enter Password:</label>
+     <input type="Enter password" id="ente rpassword" name="enter password" class="form-conrol" ngModel>
+    </div>
+    <pre></pre>
+    <div class = "form-group">
+     <label for="confirm password">Confirm Password:</label>
+     <input type="confirm password" id="confirm password" name="confirm password"class="form-conrol"ngModel>
+    </div>
+    <pre></pre>
+    <div class = "form-group">
+     <label for="bio">Bio</label>
+    </div>
+    <pre></pre>
+     <input type="submit" value="Register">
+  </form>
+</body>
+
+  
